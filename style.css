@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 10px;
+  font-family: "Poppins", sans-serif;
+  --header-text: #3a3a3a;
+  --btn-bg: #e02c6d;
+}
+
+/* header {
+  height: calc(100vh - 0px);
+} */
+.menu-hide {
+  display: none;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 50px;
+  width: 85%;
+  margin: 0 auto;
+  /* background-color: red; */
+}
+nav h3 {
+  color: var(--header-text);
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+nav ul {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+nav li a {
+  color: var(--header-text);
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+nav i {
+  font-size: 2.2rem;
+}
+.banner {
+  display: flex;
+  gap: 50px;
+  width: 85%;
+  margin: 50px auto 0;
+}
+.banner-content {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+.banner-content h1 {
+  color: var(--header-text);
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 70px;
+}
+.banner-content p {
+  color: var(--header-text);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.banner-content button {
+  color: #fff;
+  width: max-content;
+  font-size: 1.6rem;
+  font-weight: 700;
+  padding: 10px 20px;
+  background-color: var(--btn-bg);
+  outline: none;
+  border: none;
+  border-radius: 40px;
+
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.banner-content button i {
+  font-size: 2rem;
+}
+.banner-img {
+  width: 45%;
+  padding: 30px 0;
+  background-image: url(./images/Circle\ design.svg);
+  background-size: 91%;
+  background-position: 70% 30%;
+  background-repeat: no-repeat;
+}
+.banner-img img {
+  width: 85%;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Section Company Stylling  */
+.company-wrap {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 35px;
+}
+.company {
+  width: 100%;
+  padding: 30px 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.company-wrap .no1 {
+  border-color: #c0ccda99;
+  border-radius: 100%;
+}
+.company-wrap .no2 {
+  border-color: #c0ccda99;
+  border-radius: 100%;
+  margin-bottom: 1000px;
+}
+
+.hide {
+  display: none;
+}
