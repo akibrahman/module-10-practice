@@ -118,9 +118,74 @@ nav i {
 .company-wrap .no2 {
   border-color: #c0ccda99;
   border-radius: 100%;
-  margin-bottom: 1000px;
 }
 
-.hide {
-  display: none;
+/* Products Section Stylling */
+.products-wrap {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.products-wrap > h1 {
+  color: var(--header-text);
+  font-size: 2.8rem;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.product {
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  padding: 15px 0;
+}
+.product img {
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+.product h1 {
+  width: 90%;
+  margin: 0 auto;
+  color: var(--header-text);
+  font-size: 2.8rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+.product h2 {
+  width: 90%;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 2.4rem;
+  font-weight: 400;
+}
+.product .rating {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+.product .rating i {
+  font-size: 1.3rem;
+  color: #fb8200;
+}
+.product .rating span {
+  color: #5e6366;
+  font-size: 1.4rem;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+  margin-left: 10px;
+}
+.product p {
+  width: 90%;
+  margin: 0 auto;
+  color: #787885;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 143%;
+  letter-spacing: 0.252px;
 }

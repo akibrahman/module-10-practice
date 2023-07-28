@@ -48,6 +48,14 @@
   .company img {
     width: 80px;
   }
+
+  .products-wrap {
+    width: 95%;
+  }
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
 }
 
 /*Small devices (landscape phones, 577px and up)*/
@@ -93,10 +101,35 @@
   .company img {
     width: 80px;
   }
+
+  .company-wrap {
+    width: 90%;
+    margin-top: 20px;
+  }
+  .company {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .company img {
+    width: 80px;
+  }
+
+  .products-wrap {
+    width: 95%;
+  }
+  .products {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
 }
 
 /*Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
 }
 
 /*Large devices (desktops, 992px and up)*/
