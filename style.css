@@ -91,11 +91,23 @@ nav i {
   background-size: 91%;
   background-position: 70% 30%;
   background-repeat: no-repeat;
+  position: relative;
 }
+
 .banner-img img {
   width: 85%;
   display: block;
   margin: 0 auto;
+  position: relative;
+  animation: camera 1500ms ease-in-out 0s infinite alternate;
+}
+@keyframes camera {
+  from {
+    top: 20px;
+  }
+  to {
+    top: -20px;
+  }
 }
 
 /* Section Company Stylling  */
