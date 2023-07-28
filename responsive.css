@@ -60,7 +60,8 @@
     text-align: center;
   }
 
-  .feature {
+  .feature,
+  .feature.hire {
     width: 95%;
     margin-top: 60px;
     flex-direction: column-reverse;
@@ -72,6 +73,10 @@
     width: 80%;
     margin: 0 auto;
     display: block;
+  }
+  .hire-video {
+    width: 80%;
+    margin: 0 auto;
   }
   .feature .f-right {
     width: 80%;
@@ -169,7 +174,8 @@
     text-align: center;
   }
 
-  .feature {
+  .feature,
+  .feature.hire {
     width: 95%;
     margin-top: 60px;
     flex-direction: column-reverse;
@@ -181,6 +187,10 @@
     margin: 0 auto;
     display: block;
     width: 80%;
+  }
+  .hire-video {
+    width: 80%;
+    margin: 0 auto;
   }
   .feature .f-right {
     width: 80%;
