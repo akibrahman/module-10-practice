@@ -66,6 +66,9 @@
     margin-top: 60px;
     flex-direction: column-reverse;
   }
+  .feature.hire {
+    padding: 50px 0;
+  }
   .feature .f-left {
     width: 100%;
   }
@@ -180,6 +183,9 @@
     margin-top: 60px;
     flex-direction: column-reverse;
   }
+  .feature.hire {
+    padding: 50px 0;
+  }
   .feature .f-left {
     width: 100%;
   }
@@ -231,6 +237,10 @@
     width: 95%;
     margin-top: 60px;
     flex-direction: column-reverse;
+  }
+  .feature.hire {
+    padding: o 10px;
+    width: 80%;
   }
   .feature .f-left {
     width: 100%;
